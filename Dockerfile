@@ -1,4 +1,5 @@
 FROM nginx:1.10
+MAINTAINER gfisaris@gmail.com
 
 RUN rm -f /etc/nginx/nginx.conf
 RUN rm -rf /etc/nginx/conf.d/*
